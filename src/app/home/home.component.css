@@ -1,0 +1,27 @@
+.home-container{
+    height:100vh;
+    background: linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+    ),;
+    background-image: url('/assets/images/pearl.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color:white;
+   }
+
+   button{
+    padding:12px 25px;
+    background:#d4af37;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+   }

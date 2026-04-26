@@ -1,0 +1,40 @@
+<div class="product-page">
+  <div class="toast" *ngIf="successMessage">
+    {{successMessage}}
+  </div>
+    <div class="filter-section">
+
+        <label>Filter by Category:</label>
+      
+        <select [(ngModel)]="selectedCategory">
+      
+          <option value="All">All</option>
+          <option value="Ring">Ring</option>
+          <option value="Necklace">Necklace</option>
+          <option value="Earrings">Earrings</option>
+          <option value="Bracelet">Bracelet</option>
+      
+        </select>
+      
+      </div>
+      <div class="products-wrapper">
+
+        <ng-container *ngFor="let product of products">
+      
+          <div class="product-card"
+               *ngIf="selectedCategory === 'All' || product.category === selectedCategory">
+      
+            <img [src]="product.image">
+      
+            <h3>{{product.name}}</h3>
+      
+            <p class="price">₹ {{product.price}}</p>
+      
+            <button (click)="addToCart(product)">Add to Cart</button>
+           
+          </div>
+      
+        </ng-container>
+      
+      </div>
+</div>
