@@ -54,7 +54,6 @@ It allows users to browse products, manage cart items, and simulate a complete s
 
 ## 📁 Project Structure
 
-# Project Structure
 ```bash
 # Project Structure
 src/
