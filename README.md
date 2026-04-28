@@ -54,47 +54,51 @@ It allows users to browse products, manage cart items, and simulate a complete s
 
 ## 📁 Project Structure
 
+# Project Structure
+```bash
+# Project Structure
 src/
-┣ app/
-┃ ┣ components/
-┃ ┃ ┣ navbar/
-┃ ┃ ┣ login/
-┃ ┃ ┣ signup/
-┃ ┃ ┣ products/
-┃ ┃ ┣ cart/
-┃ ┣ services/
-┃ ┃ ┣ auth.service.ts
-┃ ┃ ┣ cart.service.ts
-┃ ┣ app-routing.module.ts
-┃ ┣ app.module.ts
+├── app/
+│   ├── components/
+│   │   ├── navbar/
+│   │   ├── login/
+│   │   ├── signup/
+│   │   ├── products/
+│   │   └── cart/
+│   ├── services/
+│   │   ├── auth.service.ts
+│   │   └── cart.service.ts
+│   ├── app-routing.module.ts
+│   └── app.module.ts
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-```bash
-# Clone repository
-git clone https://github.com/your-username/aura-jewels.git
+1. Clone the repository  
+   `git clone https://github.com/your-username/aura-jewels.git`
 
-# Navigate to project
-cd aura-jewels
+2. Navigate to the project  
+   `cd aura-jewels`
 
-# Install dependencies
-npm install
+3. Install dependencies  
+   `npm install`
 
-# Run application
-ng serve
+4. Run the application  
+   `ng serve`
 
-👉 Open: http://localhost:4200
+5. Open in browser  
+   http://localhost:4200
 
-📸 Screenshots
+## 📸 Screenshots
 <p align="center"> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/login.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/signup.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/home.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/products.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/cart.png" width="30%" /> </p>
 
-📌 Future Improvements
-Payment Gateway Integration
-Backend API (Spring Boot / Node.js)
-User Order History
-Admin Dashboard
-👨‍💻 Author
+## 📌 Future Improvements
+- Payment Gateway Integration
+- Backend API (Spring Boot / Node.js)
+- User Order History
+- Admin Dashboard
 
+## 👨‍💻 Author
 Pranjal Marathe
