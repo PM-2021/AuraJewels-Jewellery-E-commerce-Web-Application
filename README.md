@@ -58,17 +58,26 @@ It allows users to browse products, manage cart items, and simulate a complete s
 # Project Structure
 src/
 ├── app/
-│   ├── components/
-│   │   ├── navbar/
+│   ├── auth/
 │   │   ├── login/
-│   │   ├── signup/
-│   │   ├── products/
-│   │   └── cart/
+│   │   └── signup/
+│   ├── cart/
+│   ├── home/
+│   ├── navbar/
+│   ├── products/
 │   ├── services/
 │   │   ├── auth.service.ts
 │   │   └── cart.service.ts
 │   ├── app-routing.module.ts
+│   ├── app.component.css
+│   ├── app.component.html
+│   ├── app.component.spec.ts
+│   ├── app.component.ts
 │   └── app.module.ts
+├── assets/
+├── favicon.ico
+├── index.html
+└── main.ts
 ```
 
 ---
