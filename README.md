@@ -88,4 +88,13 @@ ng serve
 👉 Open: http://localhost:4200
 
 📸 Screenshots
-<p align="center"> <img src="src/assets/Screenshots/login.png" width="30%" /> <img src="src/assets/Screenshots/signup.png" width="30%" /> <img src="src/assets/Screenshots/home.png" width="30%" /> <img src="src/assets/Screenshots/products.png" width="30%" /> <img src="src/assets/Screenshots/cart.png" width="30%" /> </p>
+<p align="center"> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/login.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/signup.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/home.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/products.png" width="30%" /> <img src="https://github.com/PM-2021/AuraJewels-Jewellery-E-commerce-Web-Application/blob/main/src/assets/Screenshots/cart.png" width="30%" /> </p>
+
+📌 Future Improvements
+Payment Gateway Integration
+Backend API (Spring Boot / Node.js)
+User Order History
+Admin Dashboard
+👨‍💻 Author
+
+Pranjal Marathe
